@@ -1,14 +1,16 @@
 //
-//  main.cpp
+//  Cache.h
 //  LRU Cache
 //
 //  Created by Jayant Mehra on 9/13/18.
 //  Copyright © 2018 Jayant Mehra. All rights reserved.
 //
 
-#include <iostream>
+#ifndef Cache_h
+#define Cache_h
 
-int main() {
+class Cache {
     
-    return 0;
-}
+};
+
+#endif /* Cache_hpp */

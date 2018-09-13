@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		99ADF2B0214A64DF00DFB947 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99ADF2AF214A64DF00DFB947 /* main.cpp */; };
+		99ADF2B8214A64F800DFB947 /* Cache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99ADF2B6214A64F800DFB947 /* Cache.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		99ADF2AC214A64DF00DFB947 /* LRU Cache */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LRU Cache"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99ADF2AF214A64DF00DFB947 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		99ADF2B6214A64F800DFB947 /* Cache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cache.cpp; sourceTree = "<group>"; };
+		99ADF2B7214A64F800DFB947 /* Cache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cache.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				99ADF2AF214A64DF00DFB947 /* main.cpp */,
+				99ADF2B6214A64F800DFB947 /* Cache.cpp */,
+				99ADF2B7214A64F800DFB947 /* Cache.h */,
 			);
 			path = "LRU Cache";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99ADF2B8214A64F800DFB947 /* Cache.cpp in Sources */,
 				99ADF2B0214A64DF00DFB947 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
