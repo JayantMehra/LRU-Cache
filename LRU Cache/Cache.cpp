@@ -51,6 +51,7 @@ void Cache::insertAtFront(Cache::LinkedListNode *node) {
 bool Cache::removeKey(int key) {
     if (map.find(key) == map.end())
         return false;
+    
     LinkedListNode* node = map.find(key)->second;
     removeFromLinkedList(node);
     delete node;
@@ -59,7 +60,9 @@ bool Cache::removeKey(int key) {
 }
 
 bool Cache::setKeyValue(int key, string value) {
-    removeKey(key);
+    
+    if ( ! removeKey(key) )
+        return false;
     
     if (map.size() >= maxCacheSize && tail != nullptr) {
         removeKey(tail->key);
