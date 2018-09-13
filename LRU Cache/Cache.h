@@ -48,4 +48,4 @@ Cache::Cache(int maxSize) {
     tail = nullptr;
 }
 
-#endif /* Cache_hpp */
+#endif /* Cache_h */
